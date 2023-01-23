@@ -10,12 +10,12 @@ pipeline {
 		stages {
 				stage ('stage-1'){
 						steps { 
-								sh "mkdir test"
+								echo "hello"
 						}
 		}
 				stage ('stage-2'){
 						steps{ 
-								sh "mkdir folder1"
+								echo "hey"
 						}
 		}
 	}
