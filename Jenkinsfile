@@ -9,11 +9,11 @@ pipeline {
 		}
 		stages {
 				stage ('stage-1'){
-						steps{ 
+						steps { 
 								sh "mkdir test"
 						}
 		}
-		stage ('stage-2'){
+				stage ('stage-2'){
 						steps{ 
 								sh "mkdir folder1"
 						}
